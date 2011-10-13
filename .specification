@@ -1,0 +1,97 @@
+--- !ruby/object:Gem::Specification 
+name: adsense
+version: !ruby/object:Gem::Version 
+  hash: 9
+  segments: 
+  - 0
+  - 1
+  version: "0.1"
+platform: ruby
+authors: 
+- Vincent Chu
+autorequire: adsense
+bindir: bin
+cert_chain: []
+
+date: 2010-10-20 00:00:00 -07:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: nokogiri
+  prerelease: false
+  requirement: &id001 !ruby/object:Gem::Requirement 
+    none: false
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 3
+        segments: 
+        - 0
+        version: "0"
+  type: :runtime
+  version_requirements: *id001
+- !ruby/object:Gem::Dependency 
+  name: htmlentities
+  prerelease: false
+  requirement: &id002 !ruby/object:Gem::Requirement 
+    none: false
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 3
+        segments: 
+        - 0
+        version: "0"
+  type: :runtime
+  version_requirements: *id002
+description: A simple ruby library for doing a few calls against Google AdSense API ...
+email: vince@posterous.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: []
+
+files: 
+- README.markdown
+- Rakefile
+- lib/adsense.rb
+- spec/adsense_spec.rb
+- spec/spec_helper.rb
+has_rdoc: true
+homepage: http://github.com/posterous/adsense
+licenses: []
+
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- bin
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.7
+signing_key: 
+specification_version: 3
+summary: A simple ruby library for doing a few calls against Google AdSense API ...
+test_files: []
+
